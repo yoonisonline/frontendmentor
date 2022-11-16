@@ -1,0 +1,52 @@
+/* 
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+ */
+
+ * {
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    background: hsl(212, 45%, 89%);
+ }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ .container > * {
+    background: white;
+    text-align: center;
+
+ }
+
+ .container {
+    width: 300px;
+    padding: 16px 16px 30px 16px;
+    background: white;
+    justify-items: center;
+    border-radius: 15px;
+ }
+
+.qr {
+    border-radius: 10px;
+ }
+
+ h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding: 0 10px;
+ }
+
+ p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding: 0 10px;
+ }
