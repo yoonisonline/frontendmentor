@@ -32,6 +32,7 @@ h1 {
 
 p, button {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.8;
     font-stretch: expanded;
@@ -114,4 +115,48 @@ button:hover .cart {
 .rightinside {
     background: white;
     padding: 30px;
+}
+
+/* MOBILE */
+
+@media(max-width: 600px) {
+    .container {
+        display: block;
+        width: 350px;
+        height: 660px;
+        margin: 30px auto;
+    }
+
+    .left img {
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+        margin: 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .right {
+        width: 350px;
+        height: 410px;
+        margin-top: -10px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .rightinside {
+        padding: 27px;
+    }
+
+    h1 {
+        max-width: 300px;
+        font-size: 2em;
+    }
+
+    .prices {
+        padding: 10px 0;
+    }
+
+    button {
+        width: 300px;
+        justify-content: center;
+    }
 }
