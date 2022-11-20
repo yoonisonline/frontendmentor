@@ -51,7 +51,7 @@ body {
 
 .image {
     background-size: cover;
-    background-image: url('/images/image-header-desktop.jpg');
+    background-image: url('images/image-header-desktop.jpg');
     background-color: hsl(277, 64%, 61%);
     background-blend-mode: multiply;
     height: 450px;
@@ -143,7 +143,7 @@ p {
     .image {
         order: 1;
         background-size: cover;
-        background-image: url('/images/image-header-mobile.jpg');
+        background-image: url('images/image-header-mobile.jpg');
         background-color: hsl(277, 64%, 61%);
         background-blend-mode:multiply;
         width: 100%;
