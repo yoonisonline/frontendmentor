@@ -17,7 +17,7 @@ Users should be able to:
 - Overlaying div on top of image with transition (using display, position, transition, top/bottom/left/right)
 - Adding SVG as an inline object, getting it to align.
 - Using filter/drop-shadow to create a border around a circular transparent image (see link below)
-- Creating a divider using <hr> and then setting border-top/opacity.
+- Creating a divider using 'hr' and then setting border-top/opacity.
 
 ### What I need to work on
 - Aligning things more efficiently.
