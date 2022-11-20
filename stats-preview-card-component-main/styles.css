@@ -12,7 +12,6 @@ body {
     background: hsl(233, 47%, 7%);
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 
@@ -22,6 +21,7 @@ body {
     background: hsl(244, 38%, 16%);
     border-radius: 15px;
     display: flex;
+    
 }
 
 .information {
@@ -49,15 +49,15 @@ body {
 }
 
 
-img {
+.image {
+    background-size: cover;
+    background-image: url('/images/image-header-desktop.jpg');
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: multiply;
     height: 450px;
-    width: 100%;
-    object-fit: cover;
+    width: 550px;
     border-radius: 0 10px 10px 0;
 }
-
-
-
 
 
 
@@ -79,7 +79,7 @@ p {
 }
 
 .stat {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
     color: white;
 }
@@ -87,21 +87,67 @@ p {
 .stats .subheading {
     font-family: 'Lexend Deca', sans-serif;
     text-transform: uppercase;
-    font-stretch: expanded;
+    letter-spacing: 0.1em;
     font-size: 12px;
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.6);
     margin-top: -10px;
 }
 
+@media(min-width: 900px) {
+    .container {
+    align-self: center;
+    }
+}
 
 
-@media(max-width: 750px) {
+@media(max-width: 900px) {
 
     .container {
-        display: flex;
-        flex-direction: column;
+        margin-top: 80px;
+        width: 330px;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
+    .information {
+        padding: 10px 30px;
+        order: 2;
+        justify-content: center;
+        background: hsl(244, 38%, 16%);
+        border-radius: 10px;
+    }
 
+    .description {
+        width: 270px;
+        text-align: center;
+    }
+    
+
+    .heading, .accent {
+        font-size: 28px;
+    }
+
+    .stats {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .stat {
+        text-align: center;
+        margin: 10px auto 0 auto;
+    }
+
+    
+    .image {
+        order: 1;
+        background-size: cover;
+        background-image: url('/images/image-header-mobile.jpg');
+        background-color: hsl(277, 64%, 61%);
+        background-blend-mode:multiply;
+        width: 100%;
+        height: 250px;
+        border-radius: 10px 10px 0 0;
+    }
     }
