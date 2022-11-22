@@ -16,9 +16,11 @@ Users should be able to:
 ### What I learned
 
 - [Box Shadow] (https://css-tricks.com/almanac/properties/b/box-shadow/)
-- More about media queries (setting min/max and designing flexibly)
+- [Background Positions] (https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+- [SVG Backgrounds] (https://www.svgbackgrounds.com/how-to-add-svgs-with-css-background-image/)
+
+- More about media queries
 - Feeling more confident with layouts, using flexbox, creating card containers.
 
 ### What I need to work on
-
 - Organising classes better
